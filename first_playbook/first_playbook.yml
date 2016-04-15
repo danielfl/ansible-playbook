@@ -1,0 +1,8 @@
+- name: Manage Common Items
+  hosts: debian
+  remote_user: "{{ remote_user }}"
+  sudo: yes
+
+  roles:
+      - { role: common, tags: ['common']  }
+

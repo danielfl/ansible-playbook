@@ -1,0 +1,23 @@
+users:
+    admin:
+        state: present
+            comment: "Administrator User"
+shell: "/bin/bash"
+    uid: 5110
+    gid: 5110
+    #password: "1761c49b-e0f6-4ab2-b7cb-19116493f45e"
+    password: "$6$Wq9HnGdTGOdMfugO$BvDfa0s/F1axVhTt/aLzse7OTRNlR.jDbf7QwKQp2Aj1YWZ0g4k1ZbFO/O37kzspiW9.Cf7u9nAlB0izVOpOm1" 
+    sshkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+DCW8kNfu6dGCOcH8OQks+sCcAq7DHAdU/bkMJ+/gtOem09AITb0cKMZB6i784IxfxFHxEmWccOYKV26UuulFZjth/WnJdxuaodrStR4xcBuaEBC69xFwkM104IR36aHKBS0vTh1DZ/pdKidwbE7fcJ/W4x9HMs7RRMc/ibOgroi0sU7cbsTb0SeYbChZLpAoB3NC9EbpYRQd0IvvFpGZ5n+TORDZkIe1B7uDXdd1pa6VycSaDBKq2K8cHNpbAnDEcEpmcggEC7QjhKSaXI+Ar//225EK2Mw34LH5YTsZ6FdFECUvQNZFfsHQhpUDSUl+eEkg6RdSzyN8mU1RluQX daniel@lynx"
+
+
+testuser:
+    state: present
+    comments: "Example User"
+    shell: "/bin/bash"
+    uid: 510
+    gid: 510
+    #password: "32bdfd10-83fe-4d5b-bfe0-6f4a017289ee"
+    password: "$6$y91FSCooaUh$0zqmLHurrsm/XmkOk7EdG6e9cTBwRrrik3IZO5wpm79l92Iw.FVWcHHcYt0hBicFrkBj6OsimS1ksaDc0xm9k1" 
+    sshkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+DCW8kNfu6dGCOcH8OQks+sCcAq7DHAdU/bkMJ+/gtOem09AITb0cKMZB6i784IxfxFHxEmWccOYKV26UuulFZjth/WnJdxuaodrStR4xcBuaEBC69xFwkM104IR36aHKBS0vTh1DZ/pdKidwbE7fcJ/W4x9HMs7RRMc/ibOgroi0sU7cbsTb0SeYbChZLpAoB3NC9EbpYRQd0IvvFpGZ5n+TORDZkIe1B7uDXdd1pa6VycSaDBKq2K8cHNpbAnDEcEpmcggEC7QjhKSaXI+Ar//225EK2Mw34LH5YTsZ6FdFECUvQNZFfsHQhpUDSUl+eEkg6RdSzyN8mU1RluQX daniel@lynx"
+
+
